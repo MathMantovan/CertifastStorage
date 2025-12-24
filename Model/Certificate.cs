@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Security;
 
 namespace CertifastStorage.Model
 {
@@ -17,6 +15,18 @@ namespace CertifastStorage.Model
         public Guid CertificateTypeId { get; set; }
         public AgentResponsable AgentResponsable { get; set; }
         public Guid AgentResponsableId { get; set; }
+
+        public Certificate(int orderId, )
+        {
+            Id = Guid.NewGuid();
+
+
+        }
+
+        private bool VerificationOrderIdOnDb(int orderId)
+        {
+
+        }
     }
 
 }

@@ -28,7 +28,6 @@ public class CertificateType
         StorageType = storageType;
         ValidityInMonths = validityInMonths;
         Authority = authority;
-//        Validate();
     }
 
     //private void Validate()

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CertifastStorage.Model
+﻿namespace CertifastStorage.Model
 {
     public class Contact
     {
