@@ -2,7 +2,7 @@
 
 public class CertificateType
 {
-    public Guid Id { get; private set; }
+    public int Id { get; private set; }
 
     public CertificateProductType ProductType { get; private set; }
     public CertificateLevel Level { get; private set; }

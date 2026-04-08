@@ -11,8 +11,7 @@ public class CertificateDbContext : DbContext
     public DbSet<AgentResponsable> AgentResponsable { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder options) 
-        => options.UseSqlServer("Server=localhost,1433;Database=CertifastStorage;User ID=sa;Password=Matheus@dani01;"
-        + "Encrypt=True;TrustServerCertificate=True");
+        => options.UseSqlServer("Server=tcp:storagecertificate.database.windows.net,1433;Database=certificatedb;User Id=CloudSAc2d658cd;Password=Matheus@dani01;Encrypt=True;");
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(CertificateDbContext).Assembly);

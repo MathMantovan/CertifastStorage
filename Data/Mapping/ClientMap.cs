@@ -10,6 +10,9 @@ public class ClientMap : IEntityTypeConfiguration<Client>
 
         builder.HasKey(c => c.Id);
 
+        builder.Property(c => c.Id)
+            .ValueGeneratedOnAdd();
+
         builder.Property(c => c.Name)
             .IsRequired()
             .HasMaxLength(200);

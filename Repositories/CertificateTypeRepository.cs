@@ -29,7 +29,7 @@ namespace CertifastStorage.Repositories
                 .ToListAsync(cancellationToken);
         }
 
-        public async Task<CertificateType> GetByIdAsync(Guid Id, CancellationToken cancellationToken)
+        public async Task<CertificateType> GetByIdAsync(int Id, CancellationToken cancellationToken)
         {
             return await DbContext.Set<CertificateType>()
                 .AsNoTracking()

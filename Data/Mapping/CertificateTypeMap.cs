@@ -9,6 +9,7 @@ public class CertificateTypeMap : IEntityTypeConfiguration<CertificateType>
 
         builder.HasKey(c => c.Id);
 
+        builder.Property(c => c.Id).ValueGeneratedOnAdd();
         builder.Property(c => c.ProductType).IsRequired();
         builder.Property(c => c.Level).IsRequired();
         builder.Property(c => c.StorageType).IsRequired();

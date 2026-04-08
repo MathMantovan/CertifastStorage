@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EbUTF1ylOuw=",
+  "dgSpecHash": "P/Hv9hn8Lvg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\math1\\Desktop\\Dev\\CertifastStorage\\CertifastStorage\\CertifastStorage.csproj",
+  "projectFilePath": "C:\\Dev\\CertifastStorage\\CertifastStorage\\CertifastStorage.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\math1\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\math1\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

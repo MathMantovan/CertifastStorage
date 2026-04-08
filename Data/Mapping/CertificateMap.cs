@@ -11,7 +11,7 @@ public class CertificateMap : IEntityTypeConfiguration<Certificate>
         builder.HasKey(c => c.Id);
 
         builder.Property(c => c.Id)
-            .IsRequired();
+            .ValueGeneratedOnAdd();
 
         builder.Property(c => c.ExpiringDate)
             .IsRequired();

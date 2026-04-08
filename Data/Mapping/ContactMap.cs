@@ -10,6 +10,9 @@ public class ContactMap : IEntityTypeConfiguration<Contact>
 
         builder.HasKey(c => c.Id);
 
+        builder.Property(c => c.Id)
+            .ValueGeneratedOnAdd();
+
         builder.Property(c => c.Email1)
             .IsRequired()
             .HasMaxLength(200);

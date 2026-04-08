@@ -10,6 +10,9 @@ public class AgentResponsableMap : IEntityTypeConfiguration<AgentResponsable>
 
         builder.HasKey(a => a.Id);
 
+        builder.Property(a => a.Id)
+            .ValueGeneratedOnAdd();
+
         builder.Property(a => a.AgentPoint)
             .IsRequired()
             .HasMaxLength(200);

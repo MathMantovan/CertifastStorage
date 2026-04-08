@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CertifastStorage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74f6a414164d075312e1a5ad916c89dd05e83d69")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77fb117afa6d113f76abc8162c1b33b4cd6bba46")]
 [assembly: System.Reflection.AssemblyProductAttribute("CertifastStorage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CertifastStorage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

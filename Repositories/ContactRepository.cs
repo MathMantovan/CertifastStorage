@@ -24,7 +24,7 @@ namespace CertifastStorage.Repositories
                 .ToListAsync(cancellationToken);
         }
 
-        public async Task<Contact> GetByIdAsync(Guid Id, CancellationToken cancellationToken)
+        public async Task<Contact> GetByIdAsync(int Id, CancellationToken cancellationToken)
         {
             return await DbContext.Contacts
                 .FirstOrDefaultAsync(x => x.Id == Id);
